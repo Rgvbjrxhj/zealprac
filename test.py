@@ -59,7 +59,25 @@
 #     print(a)
 #     i=i+1
 
-a= "banana"
-for x in range (a):
-    print(a)
- 
+# a= "banana"
+# for x in range (a):
+#     print(a)
+
+# fruits=["apple","banana","cherry"]
+# print(fruits)
+# for x in fruits:
+#     if x=="banana":
+#         idx=int(fruits.index("banana"))
+#         fruits[idx]=x.capitalize()
+#         print(x)
+
+       
+   
+# print("Updated fruits is ",fruits)
+
+fruits=["apple","banana","cherry"]
+for x in fruits:
+    print(x)
+    if x=="banana":
+        for y in x:
+            print(y)
