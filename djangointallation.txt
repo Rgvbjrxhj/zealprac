@@ -1,0 +1,24 @@
+pip install virtualenv
+
+py -m venv env
+
+.\env\Scripts\activate
+
+django-admin --version
+
+----imp command regularly use-----
+django-admin startproject Calci    ---To start new project---
+
+cd .\Calci\     ----To Change file----
+
+python manage.py startapp CalciApp  ---To create CalciApp---
+
+python manage.py runserver  ---To create server---
+
+---Click link and open in browser---
+
+CTRL+c  ---It is use to close the server---
+
+
+
+
